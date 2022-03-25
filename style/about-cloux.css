@@ -1,0 +1,36 @@
+
+.section-about-cloux{
+    margin-bottom: 0;
+}
+
+.about-cloux-logo{
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/content-box-banner-bg.jpg");
+    background-position: top;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-cloux-img{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.about-cloux-img img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    z-index: 10;
+}
+

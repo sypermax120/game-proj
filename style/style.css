@@ -1,0 +1,60 @@
+@import url("./header.css");
+@import url("./three-box.css");
+@import url("./section-games.css");
+@import url("./game-search.css");
+@import url("./about-cloux.css");
+@import url("./featured-games.css");
+@import url("./blog-news.css");
+@import url("./game-shop.css");
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+
+  /* * {
+    box-sizing: border-box;
+  } */
+
+  .slider {
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  .slick-slide {
+    margin: 0px 0px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+    height: calc(100vh);
+    object-fit: cover !important;
+    background-size: cover !important;
+  }
+
+  .slick-dots{
+      bottom: 25px !important;
+      z-index: 10;
+
+  }
+  .slick-dots li button::before{
+      font-size: 20px !important;
+      color: white !important;
+  }
+  .slick-dotted.slick-slider {
+    margin-bottom: 00px !important;
+}
+
+.slick-list{
+  height: 100%;
+}
+.slick-track{
+  height: 100vh;
+}
+
+section{
+  margin-bottom: 50px;
+}
+

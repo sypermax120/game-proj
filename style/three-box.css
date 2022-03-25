@@ -1,0 +1,132 @@
+
+.section-three-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three-box{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+    
+}
+
+.inner-three{
+    width: 350px;
+    height: 100%;
+    margin: 25px;
+}
+
+.box-1{
+    background-image: url('../image/box-1-bg.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.box-2{
+    background-image: url('../image/box-2-bg.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.box-3{
+    background-image: url('../image/box-3-bg.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.title-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.title-box p{
+    z-index: 10;
+    text-align: center;
+}
+
+.inner-three-hover{
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.top-title{
+    color: #ffc311;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1rem;
+    margin-bottom: 0.6923rem;
+}
+
+.main-title{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.923rem;
+    line-height: 1.923rem;
+    margin-bottom: 1.692rem;
+}
+
+.text{
+    margin-bottom: 1.231rem;
+    font-size: 0.9231rem;
+    padding: 0 10px;
+}
+
+.cloux-button{
+    color: #ffc311;
+    border-bottom: 0.1538rem solid #ffc311;
+    text-transform: uppercase;
+    font-size: 1.077rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.7692rem 1.538rem;
+    cursor: pointer;
+}
+
+.cloux-button:hover{
+    /* background-color: #ffc311; */
+    color: white;
+    /* transition: 1000ms; */
+    animation: upbg 1s;
+    background-color: #ffc311;
+
+    
+}
+
+@keyframes upbg{
+    0% {
+        background-color: #ffc4113b;
+      }
+      25% {
+        background-color: #ffc41183;
+      }
+      50% {
+        background-color: #ffc411bd;
+      }
+      100% {
+        background-color: #ffc311;
+      }
+}
+
+@media screen and (max-width: 1200px){
+    .three-box{
+        width: 100%;
+    }
+}

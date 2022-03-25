@@ -1,0 +1,202 @@
+.section-game-search{
+    width: 100%;
+}
+
+.game-search{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.game-search-img{
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/game-search-bg.jpg");
+    background-position: top;
+    background-size: cover;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.game-search-form{
+    width: 65%;
+    height: 100%;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+}
+.game-search-hover{
+    background-color: #ffc311;
+    opacity: 0.75;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    height: 50px;
+    width: 150px;
+    padding: 20px;
+
+}
+
+.cs-options{
+    display: none;
+}
+
+.cs-placeholder{
+    display: none;
+}
+
+select, input, button{
+    height: 50px;
+    width: 150px;
+    outline: none;
+    opacity: 1;
+    border: 1px solid white;
+    color: white;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: transparent;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    background: white;
+    color: #ffc311;
+}
+option{
+    color: black;
+    background: white;
+}
+.cs-select{
+    height: 100%;
+    background: transparent;
+}
+
+.section-game-bottom{
+    width: 100%;
+    height: 100%;
+}
+
+.game-bottom-logo{
+    width: 100%;
+    /* height: 100%; */
+    background-image: url("../image/game-search-bottom-bg.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.game-bottom-hover{
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.game-bottom-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.game-bottom-img img{
+    width: 80%;
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    z-index: 10;
+}
+
+.game-bottom-text{
+    width: 30%;
+    height: 50%;
+    /* background: #999999; */
+    position: relative;
+    z-index: 10;
+    padding: 100px 20px 100px 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+
+.bottom-text-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.bottom-text-button div{
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    margin:  20px 20px 0;
+}
+
+.bottom-text-title{
+    font-family: 'Titillium Web' , sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;  
+}
+
+.midle-text-title{
+    color: white;
+    width: 100%;}
+
+.bottom-text-title p:nth-child(2n){
+    color: white;
+    margin-top: 0;
+}
+.bottom-text-title p:nth-child(2n+1){
+    color:#ffc311;
+    margin-bottom: 0;
+    
+}
+
+@media screen and (max-width: 950px) {
+    .game-bottom-logo {
+        flex-direction: column;
+    }
+
+    .game-bottom-text{
+        width: 50%;
+        padding: 50px;
+    }
+
+    .game-bottom-img{
+        padding-bottom: 50px;
+    }
+}

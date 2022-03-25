@@ -1,0 +1,89 @@
+.section-featured-games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-games{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+}
+
+.featuredGame-img{
+    display: flex;
+}
+
+.featuredGame-img img{
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+.featured-games-title{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Titillium Web' , sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.featured-games-title p{
+    margin: 10px;
+}
+
+.featured-games-title p:nth-child(2n){
+    color: #ffc311;
+}
+.featured-games-title p:nth-child(2n+1){
+    color: #282828;
+}
+
+.featured-gameBox{
+    height: 100%;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+}
+
+.featured-textDiv{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 10;
+}
+
+.featured-title{
+    font-size: 1.1rem;
+    line-height: 1.769rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    /* text-align: center; */
+    color: white;
+}
+
+.featured-text{
+    font-size: 0.92rem;
+    color: #999999;
+    max-height: 3.1rem;
+    overflow: hidden;
+    color: white;
+}
+
+.featuredGame-hover{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    position: absolute;
+}

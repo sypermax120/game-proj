@@ -1,0 +1,19 @@
+.section-game-shop{
+    padding-top: 50px;
+}
+
+.gameShop-title{
+    font-size: 1.1rem;
+    line-height: 1.769rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.gameShop-text{
+    font-size: 1.92rem;
+    color: #ffc311;
+    max-height: 3.1rem;
+    overflow: hidden;
+    margin-top: 0;
+}
