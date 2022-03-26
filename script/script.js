@@ -22,18 +22,18 @@ $( ".header-menu-dots" ).click(function() {
         $( ".header-menu" ).removeClass('header-nav-menu');
         countNav = 0
     }
-    if(window.innerWidth>300){
-        $( ".gameBox-img img" ).css({"width": `${250}`});
-    }
-    if(window.innerWidth<300){
-        $( ".gameBox-img img" ).css({"width": `${window.innerWidth-50}`});
-    }
-    if(window.innerWidth<450){
-        $( ".blog-games img" ).css({"width": `${window.innerWidth-50}`});
-    }
-    if(window.innerWidth>450){
-        $( ".blog-games img" ).css({"width": `${400}`});
-    }
+//     if(window.innerWidth>300){
+//         $( ".gameBox-img img" ).css({"width": `${250}`});
+//     }
+//     if(window.innerWidth<300){
+//         $( ".gameBox-img img" ).css({"width": `${window.innerWidth-50}`});
+//     }
+//     if(window.innerWidth<450){
+//         $( ".blog-games img" ).css({"width": `${window.innerWidth-50}`});
+//     }
+//     if(window.innerWidth>450){
+//         $( ".blog-games img" ).css({"width": `${400}`});
+//     }
     
     // console.log(window.innerWidth)
   }
