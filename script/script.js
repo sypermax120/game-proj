@@ -37,3 +37,5 @@ $( ".header-menu-dots" ).click(function() {
     
     // console.log(window.innerWidth)
   }
+
+myFunction()
