@@ -17,3 +17,7 @@
     overflow: hidden;
     margin-top: 0;
 }
+.game-shop-text{
+    width: 100%;
+    max-width: 400px;
+}

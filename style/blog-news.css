@@ -4,6 +4,9 @@
     background-color: #f8f9fa;
     margin-bottom: 0;
 }
+.blog-news-text{
+    max-width: 400px;
+}
 
 .blog-news-title{
     width: 100%;
@@ -19,9 +22,10 @@
 }
 
 .blog-games img{
-    width: 400px;
+    width: 100%;
     background-size: cover;
     object-fit: cover;
+    max-width: 400px;
 }
 
 .blog-news-text p{

@@ -41,7 +41,6 @@
 
 .gameBox{
     height: 100%;
-    width: min-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,10 +55,13 @@
 }
 
 .gameBox-img img{
-    width: 250px;
-    /* height: 350px; */
+    width: 100%;
     background-size: cover;
     object-fit: cover;
+    max-width: 250px;
+}
+.gameBox-textDiv{
+    max-width: 250px;
 }
 
 .gameBox-title{
