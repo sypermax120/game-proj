@@ -6,6 +6,8 @@
 @import url("./featured-games.css");
 @import url("./blog-news.css");
 @import url("./game-shop.css");
+@import url("./social-links.css");
+@import url("./section-footer.css");
 
 html, body {
     margin: 0;
