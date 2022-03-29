@@ -7,10 +7,61 @@
     color: white;
 }
 .section-top-footer{
-    height: 500px;
+    height: 100%;
     background-color: #111111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.footer-div{
+    max-width: 400px;
+    width: 100%;
+    padding: 0 20px;
 }
 
+.footer-text{
+    display: flex;
+}
+.about-us-text{
+    width: 100%;
+}
+.footer-text p{
+    display: flex;
+    padding-right: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.footer-text p:nth-child(2n){
+    color: #ffc311;
+}
+
+
+.footer-platforms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.platforms-box{
+    max-width: 160px;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.text-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.platforms-box img{
+    filter: invert();
+    max-height: 35px;
+}
 
 
 

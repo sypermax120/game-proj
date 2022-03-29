@@ -47,6 +47,8 @@ header{
 
 .inner-header-menu{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-header-menu{
@@ -105,14 +107,11 @@ header{
 }
 
 .header-menu-dots{
-    width: 20%;
-    height: 100%;
+    height: 30px;
+    width: 30px;
     display: none;
 }
 
-.header-nav-menu{
-    height: 500px;
-}
 
 .social-links img, .search img{
     height: 25px;
@@ -126,6 +125,13 @@ header{
     cursor: pointer;
 }
 
+.header-menu-active{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+
 @media screen and (max-width: 1200px){
     header{
         background-color: white;
@@ -135,17 +141,36 @@ header{
     .header-logo {
         align-items: flex-start;
     }
-    .header-menu .top-header-menu, .button-header-menu{
+    .header-menu{
+        flex-direction: column-reverse;
+    }
+    .inner-header-menu{
         display: none;
+        color: black;
+        flex-direction: column-reverse;
+    }
+    .inner-header-menu div{
+        padding: 10px 0;
+    }
+    .top-header-menu{
+        height: 100%;
+    }
+    .button-header-menu{
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .social-links{
+        display: none;
+    }
+    .login-signup{
+        padding: 0 !important;
     }
 
     .header-menu-dots{
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        height: 100%;
-        width: 50px;
-        /* margin-right: 25px; */
     }
 
     .menu-dots{
@@ -165,7 +190,6 @@ header{
 
     .header-logo img{
         content:url("../image/header-logo2.png");
-
     }
 
     .social-links img, .search img{
