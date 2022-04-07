@@ -78,5 +78,8 @@
     height: 52px;
     overflow: hidden;
     font-size: 15px;
+    touch-action: none;
+    -ms-touch-action: none;
+    -webkit-overflow-scrolling: touch;
 }
 
