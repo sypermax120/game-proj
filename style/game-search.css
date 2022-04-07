@@ -76,7 +76,7 @@ select, input, button{
     color: white;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
+    text-align: center !important;
     text-align: -webkit-center;
     text-transform: uppercase;
     font-weight: 700;
