@@ -96,7 +96,7 @@ option{
 .cs-select{
     height: 100%;
     background: transparent;
-    align-items: center;
+    text-align: center;
 }
 
 .section-game-bottom{
