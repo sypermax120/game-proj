@@ -97,9 +97,10 @@ option{
 }
 .cs-select{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    text-align: -webkit-center;
+    text-align:-moz-center;
+    text-align-last: center;
 }
 
 .section-game-bottom{
