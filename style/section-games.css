@@ -78,5 +78,7 @@
     color: #999999;
     max-height: 3.1rem;
     overflow: hidden;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
 }
 
