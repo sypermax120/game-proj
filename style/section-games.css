@@ -74,9 +74,9 @@
 }
 
 .gameBox-text{
-    font-size: 0.92rem;
     color: #999999;
-    max-height: 49px;
+    max-height: 52px;
     overflow: hidden;
+    font-size: 15px;
 }
 
