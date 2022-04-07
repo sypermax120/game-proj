@@ -38,7 +38,12 @@
                             <div>Home</div>
                             <div>About</div>
                             <div>Blog</div>
-                            <div>Games</div>
+                            <div class="dropdown-content">Games
+                                <!-- <div class="dropdown">
+                                    <a href="#">Game 1</a>
+                                    <a href="#">Game 2</a>
+                                </div> -->
+                            </div>
                             <div>Community</div>
                             <div>eSport</div>
                             <div>Pages</div>
@@ -124,8 +129,63 @@
     <section class="section-game-search">
         <div class="game-search">
             <div class="game-search-form">
-                <div class="items"><div class="item title">Game Search</div><div class="item keyword"><input type="text" name="keyword" placeholder="Keyword"></div><div class="item platform"><div class="cs-select" tabindex="0"><span class="cs-placeholder">Platform</span><div class="cs-options"><ul><li data-option="" data-value=""><span>Platform</span></li><li class="term-id-0" data-option="" data-value="58"><span>Mac OS X</span></li><li class="term-id-0" data-option="" data-value="76"><span>Microsoft Windows</span></li><li class="term-id-0" data-option="" data-value="36"><span>Origin</span></li><li class="term-id-0" data-option="" data-value="34"><span>PlayStation 4</span></li><li class="term-id-0" data-option="" data-value="37"><span>Steam</span></li><li class="term-id-0" data-option="" data-value="38"><span>Uplay</span></li><li class="term-id-0" data-option="" data-value="35"><span>Xbox One</span></li></ul></div><select name="platform" class="cs-select"><option value="">Platform</option><option value="58" data-class="term-id-0">Mac OS X</option><option value="76" data-class="term-id-0">Microsoft Windows</option><option value="36" data-class="term-id-0">Origin</option><option value="34" data-class="term-id-0">PlayStation 4</option><option value="37" data-class="term-id-0">Steam</option><option value="38" data-class="term-id-0">Uplay</option><option value="35" data-class="term-id-0">Xbox One</option></select></div></div><div class="item genre"><div class="cs-select" tabindex="0"><span class="cs-placeholder">Genre</span><div class="cs-options"><ul><li data-option="" data-value=""><span>Genre</span></li><li class="term-id-0" data-option="" data-value="49"><span>Action</span></li><li class="term-id-0" data-option="" data-value="50"><span>Adventure</span></li><li class="term-id-0" data-option="" data-value="56"><span>Casual</span></li><li class="term-id-0" data-option="" data-value="65"><span>FPS</span></li><li class="term-id-0" data-option="" data-value="57"><span>Massively Multiplayer</span></li><li class="term-id-0" data-option="" data-value="55"><span>Racing</span></li><li class="term-id-0" data-option="" data-value="51"><span>RPG</span></li><li class="term-id-0" data-option="" data-value="54"><span>Simulation</span></li><li class="term-id-0" data-option="" data-value="52"><span>Sports</span></li><li class="term-id-0" data-option="" data-value="53"><span>Strategy</span></li></ul></div><select name="genre" class="cs-select"><option value="">Genre</option><option value="49" data-class="term-id-0">Action</option><option value="50" data-class="term-id-0">Adventure</option><option value="56" data-class="term-id-0">Casual</option><option value="65" data-class="term-id-0">FPS</option><option value="57" data-class="term-id-0">Massively Multiplayer</option><option value="55" data-class="term-id-0">Racing</option><option value="51" data-class="term-id-0">RPG</option><option value="54" data-class="term-id-0">Simulation</option><option value="52" data-class="term-id-0">Sports</option><option value="53" data-class="term-id-0">Strategy</option></select></div></div><div class="item language"><div class="cs-select" tabindex="0"><span class="cs-placeholder">Language</span><div class="cs-options"><ul><li data-option="" data-value=""><span>Language</span></li><li class="term-id-0" data-option="" data-value="41"><span>English</span></li><li class="term-id-0" data-option="" data-value="45"><span>German</span></li><li class="term-id-0" data-option="" data-value="43"><span>Italian</span></li><li class="term-id-0" data-option="" data-value="46"><span>Portuguese</span></li><li class="term-id-0" data-option="" data-value="44"><span>Spanish</span></li><li class="term-id-0" data-option="" data-value="42"><span>Turkish</span></li></ul></div><select name="language" class="cs-select"><option value="">Language</option><option value="41" data-class="term-id-0">English</option><option value="45" data-class="term-id-0">German</option><option value="43" data-class="term-id-0">Italian</option><option value="46" data-class="term-id-0">Portuguese</option><option value="44" data-class="term-id-0">Spanish</option><option value="42" data-class="term-id-0">Turkish</option></select></div></div><div class="item submit"><button type="submit">Search</button></div></div>
-            
+                <div class="items">
+                    <div class="item title">Game Search</div>
+                    <div class="item keyword">
+                        <input type="text" name="keyword" placeholder="Keyword">
+                    </div>
+
+                    <div class="item platform">
+                        <div class="cs-select" tabindex="0">
+                            <select name="platform" class="cs-select">
+                                <option value="12">Platform</option>
+                                <option value="58" data-class="term-id-0">Mac OS X</option>
+                                <option value="76" data-class="term-id-0">Microsoft Windows</option>
+                                <option value="36" data-class="term-id-0">Origin</option>
+                                <option value="34" data-class="term-id-0">PlayStation 4</option>
+                                <option value="37" data-class="term-id-0">Steam</option>
+                                <option value="38" data-class="term-id-0">Uplay</option>
+                                <option value="35" data-class="term-id-0">Xbox One</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="item genre">
+                        <div class="cs-select" tabindex="0">
+                            <select name="genre" class="cs-select">
+                                <option value="13">Genre</option>
+                                <option value="49" data-class="term-id-0">Action</option>
+                                <option value="50" data-class="term-id-0">Adventure</option>
+                                <option value="56" data-class="term-id-0">Casual</option>
+                                <option value="65" data-class="term-id-0">FPS</option>
+                                <option value="57" data-class="term-id-0">Massively Multiplayer</option>
+                                <option value="55" data-class="term-id-0">Racing</option>
+                                <option value="51" data-class="term-id-0">RPG</option>
+                                <option value="54" data-class="term-id-0">Simulation</option>
+                                <option value="52" data-class="term-id-0">Sports</option>
+                                <option value="53" data-class="term-id-0">Strategy</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="item language">
+                        <div class="cs-select" tabindex="0">
+                            <select name="language" class="cs-select">
+                                <option value="14">Language</option>
+                                <option value="41" data-class="term-id-0">English</option>
+                                <option value="45" data-class="term-id-0">German</option>
+                                <option value="43" data-class="term-id-0">Italian</option>
+                                <option value="46" data-class="term-id-0">Portuguese</option>
+                                <option value="44" data-class="term-id-0">Spanish</option>
+                                <option value="42" data-class="term-id-0">Turkish</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="item submit">
+                        <button type="submit">Search</button>
+                    </div>
+                </div>
             </div>
             <div class="game-search-img"></div>
             <div class="game-search-hover"></div>

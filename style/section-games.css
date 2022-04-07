@@ -74,11 +74,12 @@
 }
 
 .gameBox-text{
-    font-size: 0.92rem;
     color: #999999;
-    max-height: 3.1rem;
+    /* height: 52px; */
     overflow: hidden;
-    height: 100%;
+    font-size: 15px;
+    touch-action: none;
+    -ms-touch-action: none;
     -webkit-overflow-scrolling: touch;
 }
 

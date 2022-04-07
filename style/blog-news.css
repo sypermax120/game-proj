@@ -28,12 +28,6 @@
     max-width: 400px;
 }
 
-/* .blog-news-text p{
-    margin-bottom: 1.538rem;
-    max-height: 3.1rem;
-    overflow: hidden;
-} */
-
 .blog-news-title{
     display: flex;
     justify-content: center;
