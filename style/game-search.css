@@ -83,9 +83,6 @@ select, input, button{
     text-transform: uppercase;
     font-weight: 700;
     background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 input::placeholder{
     color: white;
@@ -100,6 +97,9 @@ option{
 }
 .cs-select{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-game-bottom{
