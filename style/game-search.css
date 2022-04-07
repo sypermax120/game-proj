@@ -97,6 +97,8 @@ option{
     height: 100%;
     background: transparent;
     text-align: center;
+    text-align: -webkit-center;
+    align-items: center;
 }
 
 .section-game-bottom{
