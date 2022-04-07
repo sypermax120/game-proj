@@ -76,10 +76,10 @@ select, input, button{
     color: white;
     padding: 0;
     box-sizing: border-box;
-    text-align: center !important;
-    text-align: -webkit-center !important;
-    text-align:-moz-center !important;
-    text-align-last: center !important;
+    text-align: center;
+    text-align: -webkit-center;
+    text-align:-moz-center;
+    text-align-last: center;
     text-transform: uppercase;
     font-weight: 700;
     background: transparent;
