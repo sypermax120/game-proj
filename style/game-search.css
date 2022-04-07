@@ -98,13 +98,9 @@ option{
     color: black;
     background: white;
 }
-/* .cs-select{
-    height: 100%;
-    background: transparent;
-    text-align: center;
-    text-align: -webkit-center;
-    align-items: center;
-} */
+.cs-select{
+    width: 100%;
+}
 
 .section-game-bottom{
     width: 100%;
