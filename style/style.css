@@ -60,3 +60,35 @@ section{
   margin-bottom: 50px;
 }
 
+.title-slider{
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-slider p{
+  position: relative;
+  width: fit-content;
+  margin: 0;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.header-btn{
+  font-size: 1rem;
+}
+
+.title-slider .bottom-text-button{
+  justify-content: center;
+}
+

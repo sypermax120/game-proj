@@ -83,3 +83,6 @@
     -webkit-overflow-scrolling: touch;
 }
 
+option{
+    text-align: center;
+}
