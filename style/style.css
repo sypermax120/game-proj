@@ -81,7 +81,7 @@ section{
   text-transform: uppercase;
   font-size: 35px;
   text-align: center;
-  padding-bottom: 30px;
+  padding: 20px;
 }
 
 .header-btn{
@@ -90,5 +90,5 @@ section{
 
 .title-slider .bottom-text-button{
   justify-content: center;
+  padding: 20px;
 }
-
