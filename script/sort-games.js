@@ -62,7 +62,7 @@ function funcSort(arg='all'){
         let img = allGames[i]['img'];
         let type = allGames[i]['type'];
         let typeJoin = allGames[i]['type'].join(' ');
-
+        
         if(arg=='all'){
             $( `.${arg}` ).addClass('games-active');
             games.innerHTML += `<div class='gameBox'>

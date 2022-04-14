@@ -175,6 +175,9 @@ header{
     .inner-header-menu div{
         padding: 10px 0;
     }
+    .inner-header-menu a{
+        color: black;
+    }
     .top-header-menu{
         height: 100%;
     }
