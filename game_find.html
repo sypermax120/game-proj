@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style_game_find.css">
+
+</head>
+<body>
+    <div class="container">
+        <div id="game_field" class="game_field">
+            <div id="result"></div>
+            <div id="zero" class="line zero"></div>
+            <div id="line" class="line one">
+                <div id ="bl1" class="bl" onclick="myFunc(1)">
+                    <div id ="up1" class="cover"></div>
+                    <div id="d1" class="dishes"></div>
+                    <div class="plate"></div>
+                </div>
+                <div id ="bl2" class="bl" onclick="myFunc(2)">
+                    <div id ="up2" class="cover"></div>
+                    <div id="d2" class="dishes"></div>
+                    <div class="plate"></div>
+                </div>
+
+            </div>
+
+            <div id="line" class="line two">
+                <div id ="bl3" class="bl" onclick="myFunc(3)">
+                    <div id ="up3" class="cover"></div>
+                    <div id="d3" class="dishes"></div>
+                    <div class="plate"></div>
+                </div>
+
+            </div>
+
+            <div id="line" class="line three">
+                <div id="button" class="button" onclick="playFunc()"></div>
+                <div id="restart" onclick="playFunc()"></div>
+            
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</body>
+
+<script src="./script/script_game_find.js"></script>
+
+
+</html>
